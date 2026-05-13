@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0A0A0A"
       },
-      "package": "com.rajk2007.rally"
+      "package": "com.rajk2007.rally",
+      "newArchEnabled": false
     },
     "scheme": "rally",
     "plugins": [
