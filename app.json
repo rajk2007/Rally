@@ -1,1 +1,22 @@
-// Task X will fill this
+{
+  "expo": {
+    "name": "Rally",
+    "slug": "rally",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0A0A"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0A0A"
+      },
+      "package": "com.rajk2007.rally"
+    },
+    "scheme": "rally",
+    "plugins": ["expo-router"]
+  }
+}
