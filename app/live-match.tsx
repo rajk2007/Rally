@@ -72,7 +72,7 @@ export default function LiveMatchScreen() {
         <Text style={styles.undoText}>Undo Last Point</Text>
       </TouchableOpacity>
 
-      <Modal visible={pgrep() { /usr/bin/pgrep  | while read pid; do [ -n  ] && cmdline= && ! echo  | grep -q -E '(start_server\.py|upgrade\.py|supervisor)' && echo ; done; }winner} transparent animationType="fade">
+      <Modal visible={!!winner} transparent animationType="fade">
         <View style={styles.modalOverlay}>
           <View style={styles.modalContent}>
             <Text style={styles.modalWinner}>
