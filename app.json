@@ -17,6 +17,17 @@
       "package": "com.rajk2007.rally"
     },
     "scheme": "rally",
-    "plugins": ["expo-router"]
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "304b51b3-b9ba-4573-bc4e-468f84b7744f"
+      }
+    },
+    "owner": "rajk2007"
   }
 }
